@@ -22,6 +22,7 @@ main {
 .main-registration {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 
   min-width: 607px;
   margin: 70px 35px 70px 35px;
@@ -31,65 +32,39 @@ main {
   opacity: 0.6;
 }
 
-.main-registration__img {
+.main-registration__form-social,
+.main-registration__form-data {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
-  width: 650px;
-  height: 40px;
-  margin-top: 30px;
-}
-
-.main-registration__article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-top: 10px;
-}
-
-.main-registration__article p {
-  opacity: 0.3;
-}
-
-.main-registration__input {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.main-registration__input input {
+.main-registration__form-data input {
   border: none;
-  width: 235px;
+  width: 230px;
   height: 40px;
-}
-
-.main-registration__menu {
-  margin-top: 25px;
 }
 
 .main-registration__select {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.main-registration__select p {
-  cursor: pointer;
-  opacity: 0.8;
-  padding: 5px;
-}
-
-.main-registration__select p:hover {
-  background-color: #00000060;
+  margin-top: 30px;
 }
 
 .main-background {
+  display: flex;
+  flex-direction: column;
   max-height: 800px;
 }
 
-.main-background img {
+#logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#background {
   max-height: 800px;
   max-width: 759px;
 }
