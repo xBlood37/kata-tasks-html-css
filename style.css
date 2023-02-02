@@ -4,6 +4,7 @@
 
 body {
   background-color: #eff6ff;
+  font-size: 19px;
 }
 
 main {
@@ -12,6 +13,16 @@ main {
 
   justify-content: center;
   align-items: center;
+}
+
+input {
+  outline: none;
+
+  border-left: 1px solid #c4c3f5;
+
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
 }
 
 .main {
@@ -41,7 +52,6 @@ main {
 }
 
 .main-registration__form-data input {
-  border: none;
   width: 230px;
   height: 40px;
 }
@@ -54,15 +64,13 @@ main {
 }
 
 .main-background {
-  display: flex;
-  flex-direction: column;
   max-height: 800px;
 }
 
-#logo {
+/* #logo {
   max-width: 100px;
   max-height: 100px;
-}
+} */
 
 #background {
   max-height: 800px;
