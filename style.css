@@ -25,6 +25,19 @@ input {
   border-bottom: 2px solid #02020c0c;
 }
 
+button {
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  background: rgb(124, 95, 229);
+  box-shadow: 0 -3px rgba(52, 39, 98, 0.3) inset;
+  transition: 0.2s;
+  border: none;
+}
+
 .main {
   display: flex;
   box-shadow: 1px 1px 50px 50px rgba(0, 0, 0, 0.05);
@@ -82,21 +95,9 @@ input {
   max-width: 759px;
 }
 
-.btn {
+#create-account {
   min-width: 250px;
-
   align-self: flex-start;
-
-  cursor: pointer;
-  font-weight: 700;
-  color: white;
-  text-decoration: none;
-  padding: 0.8em 1em calc(0.8em + 3px);
-  border-radius: 3px;
-  background: rgb(124, 95, 229);
-  box-shadow: 0 -3px rgba(52, 39, 98, 0.3) inset;
-  transition: 0.2s;
-  border: none;
 }
 
 .facebook,
@@ -127,14 +128,10 @@ input {
   }
 }
 
-.btn:active {
+#create-account:active {
   background: rgb(90, 47, 163);
 }
 
-.facebook:hover {
-  animation: bounce 1s;
-}
-
-.linkedin:hover {
+.animation {
   animation: bounce 1s;
 }
