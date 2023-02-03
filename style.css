@@ -18,11 +18,11 @@ main {
 input {
   outline: none;
 
-  border-left: 1px solid #c4c3f5;
+  border-left: 2px solid #c4c3f5;
 
-  border-top: none;
-  border-right: none;
-  border-bottom: none;
+  border-top: 2px solid #02020c0c;
+  border-right: 2px solid #02020c0c;
+  border-bottom: 2px solid #02020c0c;
 }
 
 .main {
@@ -35,7 +35,7 @@ input {
   flex-direction: column;
   justify-content: space-evenly;
 
-  min-width: 607px;
+  min-width: 520px;
   margin: 70px 35px 70px 35px;
 }
 
@@ -83,7 +83,7 @@ input {
 }
 
 .btn {
-  display: flex;
+  min-width: 250px;
 
   align-self: flex-start;
 
