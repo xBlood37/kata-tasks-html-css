@@ -80,15 +80,10 @@ button {
   max-height: 800px;
 }
 
-.notifications {
+.main-registration__notifications {
   font-size: 15px;
   opacity: 0.5;
 }
-
-/* #logo {
-  max-width: 100px;
-  max-height: 100px;
-} */
 
 #background {
   max-height: 800px;
