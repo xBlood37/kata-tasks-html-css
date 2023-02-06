@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const btn = document.querySelector("#create-account");
+  const btn = document.querySelector(".create-account");
   const facebookButton = document.querySelector(".facebook");
   const linkedinButton = document.querySelector(".linkedin");
 

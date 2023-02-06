@@ -1,10 +1,10 @@
 * {
   font-family: "Barlow", sans-serif;
+  font-size: 19px;
 }
 
 body {
   background-color: #eff6ff;
-  font-size: 19px;
 }
 
 main {
@@ -25,7 +25,9 @@ input {
   border-bottom: 2px solid #02020c0c;
 }
 
-button {
+.create-account {
+  min-width: 200px;
+  align-self: flex-start;
   cursor: pointer;
   font-weight: 700;
   color: white;
@@ -76,23 +78,15 @@ button {
   margin-top: 30px;
 }
 
-.main-background {
+.main-background > img {
+  display: flex;
   max-height: 800px;
+  max-width: 759px;
 }
 
 .main-registration__notifications {
   font-size: 15px;
   opacity: 0.5;
-}
-
-#background {
-  max-height: 800px;
-  max-width: 759px;
-}
-
-#create-account {
-  min-width: 250px;
-  align-self: flex-start;
 }
 
 .facebook,
@@ -123,7 +117,7 @@ button {
   }
 }
 
-#create-account:active {
+.create-account:active {
   background: rgb(90, 47, 163);
 }
 
